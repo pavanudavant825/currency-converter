@@ -44,7 +44,7 @@ const CurrencyConverter = () => {
         <div className='form2'>
         <div className='amount'>
         <label htmlFor='amount'>Amount</label><br/>
-        <input className='input-box' type="text" id='amount' name='amount'placeholder='Enter the amount' onChange={(e) => setamount(e.target.value)} required/>
+        <input className='input-box' type="text" id='amount' name='amount' placeholder='Enter the amount' onChange={(e) => setamount(e.target.value)} required/>
         </div>
 
         <div className='from'>
