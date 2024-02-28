@@ -29,7 +29,6 @@
   font-size: 25px;
   color:  forestgreen;
   display: flex;
-  /* text-shadow: 2px 2px 5px  rgb(12, 188, 12); */
 }
 .form .form2 input,select{
   margin-top: 30px;
