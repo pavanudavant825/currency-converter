@@ -49,8 +49,7 @@ const CurrencyConverter = () => {
 
         <div className='from'>
         <label htmlFor="from">From</label><br/>
-        <select className='input-box' onChange={(e)=>setFrom(e.target.value)} required>
-        <option value="from">{from}</option>
+        <select className='input-box' onChange={(e)=>setFrom(e.target.value)} value={from} required>
             {options.map((op) => <option key={op} value={op}>{op}</option>)}
         </select>
         </div>
@@ -61,8 +60,7 @@ const CurrencyConverter = () => {
 
         <div className='to'>
         <label htmlFor="to">To</label><br/>
-        <select className='input-box' onChange={(e)=>setTo(e.target.value)}  required>
-            <option value="to">{to}</option>
+        <select className='input-box' onChange={(e)=>setTo(e.target.value)} value={to} required>
             {options.map((op) => <option key={op} value={op}>{op}</option>)}
         </select>
         </div>
